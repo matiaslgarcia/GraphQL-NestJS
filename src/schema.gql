@@ -1,0 +1,12 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  """Hola Mundo es el return"""
+  helloWorld: String!
+  randomNumber: Float!
+
+  """From 0 to args To"""
+  randomFromZeroTo(to: Int): Int!
+}
